@@ -1,0 +1,32 @@
+:local .padre{
+  border: solid black 1px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+:local .hijo{
+  background-color: brown;
+  height: 200px;
+  align-self: center
+}
+
+:local .hijo2{
+  background-color: brown;
+  height: 200px;
+  align-self: flex-end
+}
+:local .hijo3{
+  background-color: brown;
+  height: 200px;
+  align-self: flex-start
+}
+:local .hijo4{
+  background-color: brown;
+  height: 200px;
+  align-self: stretch
+}
+
+:local .clase{
+  color: white
+}
